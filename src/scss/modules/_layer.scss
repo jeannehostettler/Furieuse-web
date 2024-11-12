@@ -15,7 +15,7 @@
   height: 200vh;
   position: absolute;
   top: 20vh;
-  top: 50vh;
+  top: 69vh;
 }
 
 .layer-2 {
@@ -36,11 +36,22 @@
   width: 55%;
   position: absolute;
   right: 0;
-  bottom: -351vh;
+  bottom: -160vh;
   top: 0;
   left: 85vh;
 }
 
+.layer-4 {
+  background-image: url("../img/parallax-ysa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: -50vh;
+  top: 0;
+  left: 30vw;
+}
 // .layer {
 //   background-position: top center;
 //   background-size: 100%;

@@ -1,0 +1,9 @@
+.card-character {
+  display: flex;
+  background: var(
+    --bg-ysa,
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 27.5%, rgba(42, 14, 108, 0.2) 91%),
+    #7c113f
+  );
+  padding-bottom: 780px;
+}

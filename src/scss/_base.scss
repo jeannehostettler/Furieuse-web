@@ -18,16 +18,26 @@ a {
   color: inherit;
 }
 
+p {
+  color: white;
+  font-size: 27px;
+}
+
 img,
 video {
   display: block;
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  margin-top: 20px;
+  padding-top: 20px;
   z-index: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 60.5%
+  );
 }
 
 button {
