@@ -1,0 +1,61 @@
+.layer-bg {
+  background-image: url("../img/parallax-bg.png");
+  background-repeat: no-repeat;
+  height: 108vw;
+  background-size: 100%;
+  position: relative;
+  //   aspect-ratio: 1 / 1.08;
+}
+
+.layer-1 {
+  background-image: url("../img/parallax-ground.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90%;
+  height: 200vh;
+  position: absolute;
+  top: 20vh;
+  top: 50vh;
+}
+
+.layer-2 {
+  background-image: url("../img/parallax-logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  position: absolute;
+  top: 20vh;
+  left: 50vh;
+}
+
+.layer-3 {
+  background-image: url("../img/parallax-rock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  width: 55%;
+  position: absolute;
+  right: 0;
+  bottom: -351vh;
+  top: 0;
+  left: 85vh;
+}
+
+// .layer {
+//   background-position: top center;
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+//   height: $furieuseHeight;
+//   position: fixed;
+//   z-index: -1;
+// }
+
+// @media only screen and (max-width: 768px) {
+//   .layer-1 {
+//     background-position: 26% bottom;
+//   }
+
+//   .layer-2 {
+//     background-position: 35% bottom;
+//   }
+// }

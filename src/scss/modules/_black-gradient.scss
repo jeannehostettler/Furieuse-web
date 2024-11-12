@@ -1,0 +1,23 @@
+.black-gradient {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: fixed;
+  bottom: 0px;
+  width: 500vw;
+  height: 5vw;
+}
+
+.black-gradient-top {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 60.5%
+  );
+  position: fixed;
+  top: 0px;
+  width: 500vw;
+  height: 5vw;
+}
