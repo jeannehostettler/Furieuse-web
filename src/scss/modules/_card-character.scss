@@ -32,3 +32,17 @@
   );
   padding-bottom: 810px;
 }
+
+.card-character-epee {
+  display: flex;
+  background: var(
+    --bg-pe,
+    linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0) 38%,
+      rgba(118, 18, 18, 0.15) 100%
+    ),
+    #a3852e
+  );
+  padding-bottom: 780px;
+}
