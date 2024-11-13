@@ -1,9 +1,23 @@
-.personnage {
-  position: absolute;
-  left: 68vh;
-  bottom: -183vh;
-}
-
 .personnage img {
   height: 874px;
+}
+
+.personnage-ysabelle {
+  position: absolute;
+  top: 210vh;
+  right: -23vh;
+  color: white;
+  font-family: Enchanted land;
+  font-size: 300px;
+  transform: rotate(90deg);
+}
+
+.personnage-arthur {
+  position: absolute;
+  top: 310vh;
+  left: -15vh;
+  color: white;
+  font-family: Enchanted land;
+  font-size: 300px;
+  transform: rotate(90deg);
 }

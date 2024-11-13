@@ -2,12 +2,22 @@
   height: 874px;
 }
 
-.background-image-1 {
+.background-image-1-right {
   position: absolute;
   right: 0;
 }
 
-.background-image-2 {
+.background-image-2-right {
   position: absolute;
   right: 22vw;
+}
+
+.background-image-1-left {
+  position: absolute;
+  left: 0;
+}
+
+.background-image-2-left {
+  position: absolute;
+  left: 22vw;
 }
