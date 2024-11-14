@@ -21,6 +21,7 @@ a {
 p {
   color: white;
   font-size: 27px;
+  font-family: "Katari", " Modern Antiqua ", serif;
 }
 
 img,
@@ -38,6 +39,12 @@ nav {
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.6) 60.5%
   );
+}
+
+h1 {
+  font-family: "Enchanted land";
+  color: white;
+  font-size: 200px;
 }
 
 button {
@@ -121,4 +128,10 @@ $furieuseHeight: 1547px;
   position: absolute;
   bottom: -20vh;
   right: 60vh;
+}
+
+#bulle-left-11 img {
+  position: absolute;
+  bottom: 20vh;
+  left: 20vw;
 }
