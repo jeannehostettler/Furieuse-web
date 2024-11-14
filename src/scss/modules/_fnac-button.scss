@@ -1,0 +1,11 @@
+.fnac-button a {
+  border-radius: 20px;
+  background: var(--red, #b00042);
+  padding: 12px 25px 11px 26px;
+  text-decoration: none;
+  transition: box-shadow 0.3s;
+}
+
+.fnac-button:hover a {
+  box-shadow: 0px 0px 25px 8px rgba(255, 255, 255, 0.5);
+}

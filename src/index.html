@@ -22,13 +22,23 @@
               <img src="./img/logo-dargaud.png" alt="le logo Dargaud" />
             </div>
             <div class="col-4 button-nav">
-              <button>Personnages</button>
+              <div class="nav-personnages">
+                <button>
+                  <a href="#personnages">Personnages</a>
+                </button>
+              </div>
             </div>
             <div class="col-3 button-nav">
-              <button>Histoire</button>
+              <div class="nav-histoire">
+                <button>
+                  <a href="#histoire">Histoire</a>
+                </button>
+              </div>
             </div>
             <div class="col-2 button-buy">
-              <button>Acheter</button>
+              <button>
+                <a href="#achat">Acheter</a>
+              </button>
             </div>
           </div>
         </div>
@@ -44,7 +54,7 @@
     </header>
     <main>
       <div class="red-gradient"></div>
-      <div class="card-character-ysa">
+      <div class="card-character-ysa" id="personnages">
         <div class="description-left">
           <p class="bold-text">
             Je m’appelle Ysabelle je suis la fille du roi Arthur.
@@ -198,7 +208,7 @@
         </div>
         <div class="personnage-epee">L'épée</div>
       </div>
-      <div class="case-1">
+      <div class="case-1" id="histoire">
         <div class="case-1ere">
           <img
             src="img/portrait-famille-1.png"
@@ -342,7 +352,7 @@
         </div>
         <div class="gradient-end"></div>
       </div>
-      <div class="section-acheter">
+      <div class="section-acheter" id="achat">
         <h1>Furieuse</h1>
         <div class="section-flexbox">
           <div class="resume">
@@ -362,8 +372,14 @@
           />
         </div>
         <div class="section-buttons">
-          <button>Achetez maintenant</button>
-          <button class="fnac-button">Acheter chez Fnac</button>
+          <button class="section-button-1">Achetez maintenant</button>
+          <button class="fnac-button">
+            <a
+              href="https://www.fr.fnac.ch/a17162608/Geoffroy-Monde-Furieuse"
+              target="_blank"
+              >Acheter chez Fnac</a
+            >
+          </button>
         </div>
       </div>
     </main>

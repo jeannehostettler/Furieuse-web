@@ -10,3 +10,19 @@
   width: 395px;
   margin-right: 96px;
 }
+
+.section-buttons button {
+  font-family: "Enchanted Land";
+  font-size: 48px;
+  margin-right: 131px;
+}
+
+.section-buttons {
+  position: relative;
+  bottom: 25vh;
+  left: 20vh;
+}
+
+.section-button-1:hover {
+  text-decoration: underline;
+}
