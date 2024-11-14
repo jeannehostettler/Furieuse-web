@@ -72,13 +72,14 @@ $furieuseHeight: 1547px;
 #bulle-left-1 img {
   position: absolute;
   bottom: 90vh;
-  margin-left: 30px;
+  left: 5vh;
 }
 
 #bulle-right-1 img {
   position: absolute;
   bottom: -10vh;
   right: 5vh;
+  max-width: 20%;
 }
 
 #bulle-left-2-big img {
