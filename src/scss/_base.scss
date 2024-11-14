@@ -62,7 +62,7 @@ body {
   background: #25000b;
 }
 
-$furieuseHeight: 1547px;
+$furieuseHeight: 1520px;
 
 #furieuse {
   height: $furieuseHeight;
@@ -139,4 +139,17 @@ $furieuseHeight: 1547px;
 
 footer {
   background: var(--red, #b00042);
+}
+
+#horizontal .content {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+}
+
+#horizontal {
+  display: flex;
+  overflow-x: hidden;
 }

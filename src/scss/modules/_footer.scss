@@ -12,6 +12,13 @@
   flex-wrap: wrap;
   gap: 10px 25px;
   margin-left: 35px;
+  margin-top: 28px;
+  font-family: "Katari", " Modern Antiqua ", serif;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .footer-logo-links {
@@ -27,7 +34,7 @@
 
 .footer-social i {
   font-size: 35px;
-  margin-right: 31.5px;
+  margin-left: 31.5px;
 }
 
 .footer-social {
