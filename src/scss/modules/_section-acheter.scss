@@ -1,5 +1,6 @@
 .section-acheter {
   background-color: black;
+  position: relative;
 }
 
 .section-flexbox {
@@ -18,8 +19,8 @@
 }
 
 .section-buttons {
-  position: relative;
-  bottom: 25vh;
+  position: absolute;
+  bottom: 17vh;
   left: 20vh;
 }
 
