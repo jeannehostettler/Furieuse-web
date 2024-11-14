@@ -1,12 +1,14 @@
 .case-1 img {
   width: 1259px;
   max-width: 90%;
-  margin-left: 91px;
+  // margin-left: 91px;
   margin-top: 340px;
 }
 
 .case-1 {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .case-2 img {
@@ -17,22 +19,30 @@
 
 .case-2 {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .case-3 img {
   width: 922px;
-  max-width: 90%;
-  margin-left: 257px;
+  // max-width: 90%;
+  // margin-left: 257px;
   margin-top: 265px;
 }
 
 .case-3 {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .case-4 img {
   width: 650px;
-  max-width: 70%;
   margin-top: 145px;
-  margin-left: 395px;
+  // margin-left: 395px;
+}
+
+.case-4 {
+  display: flex;
+  justify-content: center;
 }
