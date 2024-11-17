@@ -53,4 +53,26 @@ gsap.to("#object-right-1", {
     scrub: 3,
   },
 });
-zu;
+
+gsap
+  // Anime l'objet  lorsque son centre arrive en bas du viewport
+  // Il devient visible et est déplacé horizontalement de 25%
+  .to("#object-left-2-big", {
+    opacity: 1,
+    scrollTrigger: {
+      trigger: "#object-left-2-big",
+      start: "top bottom",
+      scrub: 1,
+    },
+  });
+
+// Anime l'objet  lorsque son centre arrive en bas du viewport
+// Il devient visible et est déplacé horizontalement de -25%
+gsap.to("#object-left-2-small", {
+  opacity: 1,
+  scrollTrigger: {
+    trigger: "#object-left-2-small",
+    start: "top bottom",
+    scrub: 3,
+  },
+});
