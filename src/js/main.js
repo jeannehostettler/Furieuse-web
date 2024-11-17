@@ -28,3 +28,29 @@ gsap.to(contents, {
     scrub: 1, //la valeur définir un delais à l'animation
   },
 });
+
+gsap
+  // Anime l'objet  lorsque son centre arrive en bas du viewport
+  // Il devient visible et est déplacé horizontalement de 25%
+  .to("#object-left-1", {
+    opacity: 1,
+    x: "10%",
+    scrollTrigger: {
+      trigger: "#object-left-1",
+      start: "top bottom",
+      scrub: 1,
+    },
+  });
+
+// Anime l'objet  lorsque son centre arrive en bas du viewport
+// Il devient visible et est déplacé horizontalement de -25%
+gsap.to("#object-right-1", {
+  opacity: 1,
+  x: " -10%",
+  scrollTrigger: {
+    trigger: "#object-right-1",
+    start: "top bottom",
+    scrub: 3,
+  },
+});
+zu;

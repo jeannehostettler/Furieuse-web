@@ -1,0 +1,17 @@
+.object img {
+  width: 30%;
+}
+
+.object-wrapper {
+  display: flex;
+  margin: 100px 0;
+}
+
+.object-wrapper ~ .object-wrapper {
+  justify-content: end;
+}
+
+.object {
+  opacity: 0;
+  margin-top: -1000px;
+}
