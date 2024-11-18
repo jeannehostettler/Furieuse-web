@@ -117,7 +117,7 @@ gsap.to("#object-left-8", {
 
 gsap.to("#object-right-9", {
   opacity: 1,
-  x: "-10%",
+  x: "-5%",
   scrollTrigger: {
     trigger: "#object-right-9",
     start: "top bottom",
