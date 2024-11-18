@@ -134,3 +134,25 @@ gsap.to("#object-left-10", {
     scrub: 5,
   },
 });
+
+// const scrollCall = document.querySelector(".scroll-container"); //(class qui définit la position)
+// const footer = document.querySelector(".footer");
+
+// const observer = new IntersectionObserver(
+//   (entries) => {
+//     entries.forEach((entry) => {
+//       if (entry.isIntersecting) {
+//         scrollCall.style.position = "absolute";
+//       } else {
+//         scrollCall.style.position = "fixed";
+//       }
+//     });
+//   },
+//   {
+//     root: null,
+//     threshold: 0,
+//   }
+// );
+
+// observer.observe(footer);
+//  : si vous mettez ces lignes dans votre javascript l'élément vas se mettre en position absolute quand le footer apparait à l'écran
