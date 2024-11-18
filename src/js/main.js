@@ -155,4 +155,3 @@ gsap.to("#object-left-10", {
 // );
 
 // observer.observe(footer);
-//  : si vous mettez ces lignes dans votre javascript l'élément vas se mettre en position absolute quand le footer apparait à l'écran
