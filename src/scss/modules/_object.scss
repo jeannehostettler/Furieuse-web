@@ -18,6 +18,22 @@
   margin-left: 10vw;
 }
 
+.object-3-right img {
+  margin-left: 120vh;
+  margin-top: 70vh;
+}
+
+.object-4-center img {
+  margin-top: 60vw;
+  margin-left: 40vh;
+  width: 50%;
+}
+
+.object-5-center img {
+  margin-top: 110vh;
+  margin-left: 25vw;
+}
+
 .object-wrapper {
   display: flex;
   margin: 100px 0;
@@ -28,6 +44,6 @@
 }
 
 .object {
-  opacity: 0;
+  opacity: 1;
   margin-top: -1000px;
 }

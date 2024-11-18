@@ -63,7 +63,7 @@ gsap.to("#object-left-2-small", {
   scrollTrigger: {
     trigger: "#object-left-2-small",
     start: "top bottom",
-    scrub: 3,
+    scrub: 10,
   },
 });
 
@@ -84,5 +84,53 @@ gsap.to("#object-right-3", {
     trigger: "#object-right-3",
     start: "top bottom",
     scrub: 3,
+  },
+});
+
+gsap.to("#object-4", {
+  opacity: 1,
+  scrollTrigger: {
+    trigger: "#object-4",
+    start: "top bottom",
+    scrub: 10,
+  },
+});
+
+gsap.to("#object-5", {
+  opacity: 1,
+  scrollTrigger: {
+    trigger: "#object-5",
+    start: "top bottom",
+    scrub: 10,
+  },
+});
+
+gsap.to("#object-left-8", {
+  opacity: 1,
+  x: "10%",
+  scrollTrigger: {
+    trigger: "#object-left-8",
+    start: "top bottom",
+    scrub: 5,
+  },
+});
+
+gsap.to("#object-right-9", {
+  opacity: 1,
+  x: "-10%",
+  scrollTrigger: {
+    trigger: "#object-right-9",
+    start: "top bottom",
+    scrub: 5,
+  },
+});
+
+gsap.to("#object-left-10", {
+  opacity: 1,
+  x: "5%",
+  scrollTrigger: {
+    trigger: "#object-left-10",
+    start: "top bottom",
+    scrub: 5,
   },
 });
