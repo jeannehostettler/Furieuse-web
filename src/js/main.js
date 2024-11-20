@@ -135,18 +135,24 @@ gsap.to("#object-left-10", {
   },
 });
 
-gsap
-  // Anime l'objet  lorsque son centre arrive en bas du viewport
-  // Il devient visible et est déplacé horizontalement de 25%
-  .to("#object-left-6", {
-    opacity: 1,
-    x: "10%",
-    scrollTrigger: {
-      trigger: "#object-left-6",
-      start: "top bottom",
-      scrub: 1,
-    },
-  });
+gsap.to("#object-left-6", {
+  opacity: 1,
+  x: "10%",
+  scrollTrigger: {
+    trigger: "#object-left-6",
+    start: "top bottom",
+    scrub: 1,
+  },
+});
+
+gsap.to("#object-center-6", {
+  opacity: 1,
+  scrollTrigger: {
+    trigger: "#object-center-6",
+    start: "top bottom",
+    scrub: 1,
+  },
+});
 
 const scrollCall = document.querySelector(".scroll-container"); //(class qui définit la position)
 const footer = document.querySelector(".footer");
