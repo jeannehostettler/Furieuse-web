@@ -19,14 +19,16 @@
   width: 13%;
 }
 
-.object-3-left img {
-  margin-left: 10vw;
-  margin-right: 20vh;
-  width: 30%;
+.object-3-left {
+  position: absolute;
+  left: 15vw;
 }
 
-.object-3-right img {
-  margin-top: 70vh;
+.object-3-right {
+  position: absolute;
+  right: -25vw;
+  margin-top: 80vh;
+  width: 50%;
 }
 
 .object-4-center img {
