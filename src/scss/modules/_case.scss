@@ -23,7 +23,7 @@
 }
 
 .case-2eme {
-  position: absolute;
+  position: relative;
 }
 
 .case-3 img {
@@ -34,6 +34,10 @@
 .case-3 {
   display: flex;
   justify-content: center;
+}
+
+.case-3eme {
+  position: relative;
 }
 
 .case-5 img {
