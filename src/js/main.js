@@ -63,7 +63,7 @@ gsap.to("#object-left-2-small", {
   scrollTrigger: {
     trigger: "#object-left-2-small",
     start: "top bottom",
-    scrub: 10,
+    scrub: 2,
   },
 });
 

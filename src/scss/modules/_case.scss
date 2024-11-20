@@ -12,14 +12,18 @@
 }
 
 .case-2 img {
-  margin-top: 166px;
   width: 1440px;
   max-width: 100%;
 }
 
 .case-2 {
+  margin-top: 166px;
   display: flex;
   justify-content: center;
+}
+
+.case-2eme {
+  position: absolute;
 }
 
 .case-3 img {
