@@ -92,7 +92,7 @@ gsap.to("#object-4", {
   scrollTrigger: {
     trigger: "#object-4",
     start: "top bottom",
-    scrub: 10,
+    scrub: 1,
   },
 });
 
@@ -101,7 +101,7 @@ gsap.to("#object-5", {
   scrollTrigger: {
     trigger: "#object-5",
     start: "top bottom",
-    scrub: 10,
+    scrub: 1,
   },
 });
 
@@ -111,7 +111,7 @@ gsap.to("#object-left-8", {
   scrollTrigger: {
     trigger: "#object-left-8",
     start: "top bottom",
-    scrub: 5,
+    scrub: 1,
   },
 });
 
@@ -121,7 +121,7 @@ gsap.to("#object-right-9", {
   scrollTrigger: {
     trigger: "#object-right-9",
     start: "top bottom",
-    scrub: 5,
+    scrub: 1,
   },
 });
 
@@ -131,7 +131,7 @@ gsap.to("#object-left-10", {
   scrollTrigger: {
     trigger: "#object-left-10",
     start: "top bottom",
-    scrub: 5,
+    scrub: 1,
   },
 });
 

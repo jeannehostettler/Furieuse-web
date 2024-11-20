@@ -9,6 +9,8 @@
   display: flex;
   justify-content: center;
   // scroll-behavior: smooth;
+  width: 1440px;
+  max-width: 100%;
 }
 
 .case-2 img {
@@ -59,12 +61,11 @@
 .case-6 {
   display: flex;
   justify-content: center;
-  margin-bottom: 110%;
+  margin-bottom: 20%;
   position: relative;
 }
 
 .case-7 img {
-  margin-top: 405px;
   width: 1440px;
 }
 
