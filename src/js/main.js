@@ -135,23 +135,36 @@ gsap.to("#object-left-10", {
   },
 });
 
-// const scrollCall = document.querySelector(".scroll-container"); //(class qui définit la position)
-// const footer = document.querySelector(".footer");
+gsap
+  // Anime l'objet  lorsque son centre arrive en bas du viewport
+  // Il devient visible et est déplacé horizontalement de 25%
+  .to("#object-left-6", {
+    opacity: 1,
+    x: "10%",
+    scrollTrigger: {
+      trigger: "#object-left-6",
+      start: "top bottom",
+      scrub: 1,
+    },
+  });
 
-// const observer = new IntersectionObserver(
-//   (entries) => {
-//     entries.forEach((entry) => {
-//       if (entry.isIntersecting) {
-//         scrollCall.style.position = "absolute";
-//       } else {
-//         scrollCall.style.position = "fixed";
-//       }
-//     });
-//   },
-//   {
-//     root: null,
-//     threshold: 0,
-//   }
-// );
+const scrollCall = document.querySelector(".scroll-container"); //(class qui définit la position)
+const footer = document.querySelector(".footer");
 
-// observer.observe(footer);
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        scrollCall.style.position = "absolute";
+      } else {
+        scrollCall.style.position = "fixed";
+      }
+    });
+  },
+  {
+    root: null,
+    threshold: 0,
+  }
+);
+
+observer.observe(footer);
