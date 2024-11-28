@@ -174,3 +174,8 @@ const observer = new IntersectionObserver(
 );
 
 observer.observe(footer);
+
+var loadingScreen = document.querySelector(".loadingScreen");
+window.addEventListener("load", function () {
+  loadingScreen.style.display = "none";
+});
