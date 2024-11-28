@@ -78,7 +78,7 @@ $furieuseHeight: 1520px;
 }
 
 #object-right-1 img {
-  margin-top: 80vh;
+  margin-top: -30vh;
   margin-left: 115vh;
   max-width: 20%;
 }
@@ -121,4 +121,8 @@ footer {
 #horizontal {
   display: flex;
   overflow-x: hidden;
+}
+
+#instagram {
+  z-index: 30;
 }
